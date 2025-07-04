@@ -11,7 +11,7 @@ thin_border = Border(
     top=Side(style='thin'), bottom=Side(style='thin')
 )
 
-    filename = f"products_part_{i+1} - الجزء_{i+1}.xlsx"
+    filename = f"products_part_{i+1} - _{i+1}.xlsx"
     filepath = os.path.join(output_folder, filename)
     chunk.to_excel(filepath, index=False, header=False)
 
